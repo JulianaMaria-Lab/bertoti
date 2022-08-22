@@ -11,8 +11,5 @@ public class Pessoa {
 		public void acessarPortal () {
 			this.acesso.acessar();
 		}
-		//public void verNota() {
-		//	this.acesso.verNota();
-		//}
 		
 }
