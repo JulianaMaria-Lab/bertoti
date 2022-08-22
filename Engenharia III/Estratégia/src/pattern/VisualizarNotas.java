@@ -1,9 +1,9 @@
 package pattern;
 
-public class VisualizarNotas {
-	public void verNota() {
+public class VisualizarNotas implements Acesso {
+	public void acessar() {
 		
-		System.out.println("---Sistema de visualização de Notas---");	
+		System.out.println("---Bem-Vindo(a) Aluno(a)!--- \n ---Sistema de visualização de Notas---");	
 	}
 
 }

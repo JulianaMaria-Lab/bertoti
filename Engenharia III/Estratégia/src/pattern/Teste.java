@@ -6,14 +6,14 @@ public class Teste {
 		Pessoa juliana = new Pessoa();
 		//	juliana = estudante -> visualizar notas
 		juliana.setAcesso(new VisualizarNotas());
-		juliana.verNota();
+		juliana.acessarPortal();
 		
-		System.out.println("--------------------------------");
+		System.out.println("\n\n");
 		
 		//juliana virou professora da Fatec
 		
-		juliana.setAcesso(new LançamentoDeNotas());
-		juliana.lancarNota();
+		juliana.setAcesso(new LancamentoDeNotas());
+		juliana.acessarPortal();
 
 		
 	}
